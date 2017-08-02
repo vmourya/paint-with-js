@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; border:0}
+body,html{width:100; height:100%; background:#000;}
+header{position:fixed; z-index:2;width:100%;}
+input[type="color"] {border: medium none;width: 30px; position:absolute; z-index:1;}
+section{position:relative; height:100%; width:100%;}
+section > span { width:1px; position:absolute; height:1px;}
+
